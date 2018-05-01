@@ -4,7 +4,7 @@
 
 body {
     margin: 0px;
-    background-image: url('images/Background.JPEG');
+    background-image: url('images/audience-band-concert-167491.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -18,7 +18,7 @@ body {
 }
 
 #headerTitle {
-    font-size: 200%;
+    font-size: 225%;
     margin: 0px;
 }
 
@@ -39,6 +39,100 @@ body {
 .contentItem{
     background-color: #ffffff94;
     margin: 20px;
-    padding: 10px;
     justify-self: center;
+    height: 500px;
+    width: 500px;
+}
+
+.contentText{
+    font-size: 500%;
+}
+
+#musicLink{
+    background-image: url('images/Street-Play.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#musicText {
+    color: #c89102;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#eventsLink{
+    background-image: url('images/Blue-Background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#eventsText {
+    color: #c89102;
+    margin-left: 155px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+#merchLink{
+    background-image: url('images/Background.JPEG');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#merchText {
+    color: white;
+    margin-top: 400px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+
+#aboutLink{
+    background-image: url('images/Solo-Colored-Street.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#aboutText {
+    color: white;
+    margin-top: 400px;
+    margin-left: 185px;
+}
+
+.footerGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#footerLink {
+    grid-row: 1;
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 150%;
+    background: #ffffff7a;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* unvisited link */
+a:link {
+    color: red;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: unset;
+}
+
+/* mouse over link */
+a:hover {
+    color: blue;
+}
+
+/* selected link */
+a:active {
+    color: blue;
 }
