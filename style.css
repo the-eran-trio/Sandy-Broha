@@ -1,0 +1,44 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0px;
+    background-image: url('images/Background.JPEG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#headerGrid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: #000000a8;
+    color: white;
+}
+
+#headerTitle {
+    font-size: 200%;
+    margin: 0px;
+}
+
+.headerNavigationLink{
+    grid-row: 1;
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+}
+
+#contentGrid{
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: black;
+}
+
+.contentItem{
+    background-color: #ffffff94;
+    margin: 20px;
+    padding: 10px;
+    justify-self: center;
+}
