@@ -2,9 +2,9 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-body {
+#homePageBody {
     margin: 0px;
-    background-image: url('images/audience-band-concert-167491.jpg');
+    background-image: url('images/artist-band-bass-92080.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -33,74 +33,90 @@ body {
     margin: 50px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    border: black;
+    row-gap: 40px;
 }
 
 .contentItem{
-    background-color: #ffffff94;
     margin: 20px;
     justify-self: center;
-    height: 500px;
-    width: 500px;
+    height: 450px;
+    width: 450px;
+    transition: transform .4s;
+    margin: 0 auto;
 }
 
 .contentText{
-    font-size: 500%;
+    font-size: 300%;
+}
+
+.contentItem:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 #musicLink{
-    background-image: url('images/Street-Play.jpg');
+    background-image: url('images/music.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #musicText {
-    color: #c89102;
+    color: #c89102b3;
     margin-top: 10px;
     margin-left: 20px;
 }
 
 #eventsLink{
-    background-image: url('images/Blue-Background.jpg');
+    background-image: url('images/Blue-Background-400.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #eventsText {
-    color: #c89102;
-    margin-left: 155px;
+    color: #c89102b3;
+    margin-left: 310px;
     margin-top: 10px;
     margin-right: 20px;
 }
 
 #merchLink{
-    background-image: url('images/Background.JPEG');
+    background-image: url('images/merch.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #merchText {
-    color: white;
-    margin-top: 400px;
+    color: #ffffffb8;
+    margin-top: 380px;
     margin-left: 20px;
     margin-bottom: 0px;
 }
 
 #aboutLink{
-    background-image: url('images/Solo-Colored-Street.jpg');
+    background-image: url('images/about.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #aboutText {
-    color: white;
-    margin-top: 400px;
-    margin-left: 185px;
+    color: #ffffffb8;
+    margin-top: 380px;
+    margin-left: 320px;
 }
 
-.musicGrid {
-    display: grid;
-    grid-column: 
+#musicPageBody {
+    margin: 0px;
+    background-image: url('images/bookcase-bookshelves-bookstore-351265.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.musicBox {
+    margin-left: 910px;
+    margin-top: 388px;
+    height: 206px;
+    width: 211px;
+    background-color: white;
 }
 
 .footerGrid {
